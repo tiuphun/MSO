@@ -1,4 +1,9 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <map>
+#include <set>
+#include <algorithm>
+#include <cassert>
 using namespace std;
 
 #define INF 1e9
@@ -21,7 +26,7 @@ public:
     int dim;                    // Chiều dài chuỗi gen của cá thể
     int num_objectives;         // Số hàm mục tiêu
 
-    double x[N];  // Chuỗi gen biểu diễn đồ vật được chọn
+    double x[N];                // Chuỗi gen biểu diễn đồ vật được chọn
     double fitness[OBJ_CNT];    // Giá trị hàm thích nghi
 
     Individual() {
