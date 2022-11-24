@@ -1,0 +1,12 @@
+P1, P2: parent
+O1, O2: children
+pop = population
+mating_pool = set of selected parents for mating
+Setting up things before coding
+GA algorithm can be put in main()
+
+Population initialization -> Evaluation -> Parent selection -> Crossover -> Mutation -> Natural Selection 
+-> Stopping criteria
+
+# ACTION ITEMS
+- OOP in Python Crash Course

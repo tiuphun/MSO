@@ -1,0 +1,13 @@
+Open terminal and cd to the code folder.
+Execute the following commands to build and run the codes:
+
+mkdir build
+cd build
+cmake ..
+make
+./main
+
+When the codes are build and run successfully, you need to run only the last two commands to re-build and run the codes.
+
+Try to modify the parameters, such as population size, mutation rate, crossover rate, etc and see how the result changes.
+You can try other evolutionary operators like Two point crossover, Order crossover, PMX crossover, Cyclic crossover, inversion mutation, etc.
